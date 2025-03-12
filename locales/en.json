@@ -1,0 +1,573 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "categories": "Categories",
+    "deals": "Deals",
+    "wishlist": "Wishlist",
+    "cart": "Cart",
+    "account": "My Account",
+    "orders": "Orders",
+    "login": "Login / Register",
+    "logout": "Logout",
+    "admin_dashboard": "Admin Dashboard",
+    "navigation": "Navigation",
+    "search": "Search"
+  },
+  "categories": {
+    "electronics": "Electronics",
+    "clothing": "Clothing",
+    "home_kitchen": "Home & Kitchen",
+    "beauty": "Beauty & Personal Care"
+  },
+  "profile": {
+    "my_account": "My Account",
+    "profile": "Profile",
+    "orders": "Orders",
+    "settings": "Settings",
+    "admin": "Admin Panel",
+    "logout": "Logout",
+    "login_register": "Login / Register"
+  },
+  "search": {
+    "button": "Search",
+    "placeholder": "Search for products...",
+    "title": "Search Products",
+    "popular": "Popular searches:",
+    "no_results": "No results found",
+    "suggestions": "Suggestions:",
+    "check_spelling": "Check your spelling",
+    "more_general": "Try more general keywords",
+    "different_keywords": "Try different keywords",
+    "browse_categories": "Browse our categories"
+  },
+  "product": {
+    "add_to_cart": "Add to Cart",
+    "buy_now": "Buy Now",
+    "add_to_wishlist": "Add to Wishlist",
+    "share": "Share",
+    "description": "Description",
+    "features": "Features",
+    "specifications": "Specifications",
+    "reviews": "Reviews",
+    "related": "Related Products",
+    "availability": "Availability:",
+    "in_stock": "In Stock",
+    "low_stock": "Low Stock (Only",
+    "out_of_stock": "Out of Stock",
+    "sku": "SKU:",
+    "left": "left)",
+    "best_seller": "Best Seller",
+    "save": "Save"
+  },
+  "cart": {
+    "title": "Your Cart",
+    "empty": "Your cart is empty",
+    "empty_message": "Looks like you haven't added anything to your cart yet.",
+    "browse_products": "Browse Products",
+    "continue_shopping": "Continue Shopping",
+    "summary": "Order Summary",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "tax": "Tax",
+    "discount": "Discount",
+    "total": "Total",
+    "checkout": "Proceed to Checkout",
+    "clear": "Clear Cart",
+    "apply": "Apply",
+    "promo_code": "Promo code",
+    "try_codes": "Try promo codes: SAVE10, SAVE20",
+    "free_shipping": "Free shipping on orders over $100",
+    "return_policy": "30-day return policy",
+    "login_required": "Login Required",
+    "login_message": "Please login to view and manage your cart",
+    "login_now": "Login Now",
+    "loading": "Loading your cart..."
+  },
+  "checkout": {
+    "title": "Checkout",
+    "information": "Information",
+    "shipping": "Shipping",
+    "payment": "Payment",
+    "confirmation": "Confirmation",
+    "contact_info": "Contact Information",
+    "shipping_address": "Shipping Address",
+    "continue_shipping": "Continue to Shipping",
+    "continue_payment": "Continue to Payment",
+    "back_information": "Back to Information",
+    "back_shipping": "Back to Shipping",
+    "complete_order": "Complete Order",
+    "shipping_method": "Shipping Method",
+    "email": "Email",
+    "phone": "Phone",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "address": "Address",
+    "apartment": "Apartment, suite, etc. (optional)",
+    "city": "City",
+    "state": "State/Province",
+    "zip_code": "ZIP/Postal Code",
+    "country": "Country",
+    "save_info": "Save this information for next time",
+    "save_info_description": "This will save your shipping information for future orders.",
+    "select_state": "Select state",
+    "select_country": "Select country",
+    "estimated_delivery": "Estimated delivery",
+    "billing_address": "Billing Address",
+    "same_as_shipping": "Same as shipping address",
+    "credit_card": "Credit / Debit Card",
+    "card_number": "Card Number",
+    "expiry_date": "Expiry Date",
+    "name_on_card": "Name on Card",
+    "paypal_description": "You will be redirected to PayPal to complete your purchase securely.",
+    "bank_transfer": "Bank Transfer",
+    "bank_transfer_description": "Make your payment directly into our bank account. Please use your Order ID as the payment reference.",
+    "fill_all_fields": "Please fill in all required fields",
+    "processing": "Processing payment...",
+    "order_complete": "Order Complete!",
+    "order_number": "Order Number",
+    "confirmation_message": "Thank you for your purchase. We've received your order and will begin processing it right away. You will receive an email confirmation shortly.",
+    "view_order": "View Order",
+    "continue_shopping": "Continue Shopping",
+    "order_summary": "Order Summary",
+    "confirmation_email": "A confirmation email has been sent to:",
+    "coupon_applied": "Coupon applied",
+    "coupon_applied_description": "{{discount}} discount has been applied to your order.",
+    "invalid_coupon": "Invalid coupon",
+    "invalid_coupon_description": "The coupon code you entered is invalid or expired.",
+    "secure_checkout": "Secure checkout - your data is protected",
+    "order_success": "Order Placed Successfully",
+    "order_success_message": "Your order #{{orderId}} has been placed successfully.",
+    "loading": "Loading checkout...",
+    "invalid_email": "Please enter a valid email address",
+    "invalid_first_name": "First name must be at least 2 characters",
+    "invalid_last_name": "Last name must be at least 2 characters",
+    "invalid_address": "Please enter a valid address",
+    "invalid_city": "Please enter a valid city",
+    "invalid_state": "Please select a state",
+    "invalid_zip": "Please enter a valid ZIP/postal code",
+    "invalid_country": "Please select a country",
+    "invalid_phone": "Please enter a valid phone number"
+  },
+  "account": {
+    "title": "My Account",
+    "personal_info": "Personal Information",
+    "address": "Address",
+    "password": "Password",
+    "save_changes": "Save Changes",
+    "saving": "Saving..."
+  },
+  "footer": {
+    "quick_links": "Quick Links",
+    "about_us": "About Us",
+    "blog": "Blog",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "contact_us": "Contact Us",
+    "newsletter": "Newsletter",
+    "subscribe_text": "Subscribe to our newsletter for updates on new products and special offers.",
+    "email_placeholder": "Your email address",
+    "subscribe": "Subscribe",
+    "all_rights_reserved": "All rights reserved.",
+    "privacy_policy": "Privacy Policy",
+    "terms_of_service": "Terms of Service",
+    "shipping_policy": "Shipping Policy",
+    "refund_policy": "Refund Policy",
+    "company_description": "ShopName is your one-stop destination for all your shopping needs. We offer a wide range of high-quality products at competitive prices.",
+    "address": "123 Shop Street, City, Country",
+    "phone": "+1 (234) 567-8900",
+    "email": "support@shopname.com",
+    "business_hours": "Business Hours",
+    "monday_friday": "Monday - Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "customer_service": "Customer Service"
+  },
+  "notifications": {
+    "notifications": "Notifications",
+    "notification_preferences": "Notification Preferences",
+    "notification_description": "Choose which notifications you'd like to receive about promotions, stock alerts, and price drops.",
+    "promotions_and_deals": "Promotions & Deals",
+    "promotions_description": "Get notified about sales, discounts, and special offers.",
+    "stock_alerts": "Stock Alerts",
+    "stock_alerts_description": "Be notified when products in your wishlist are back in stock.",
+    "price_drops": "Price Drops",
+    "price_drops_description": "Get alerts when products you're interested in drop in price.",
+    "save_preferences": "Save Preferences",
+    "preferences_saved": "Notification preferences saved",
+    "preferences_saved_message": "You'll now receive notifications based on your preferences.",
+    "notifications_disabled": "Notifications disabled",
+    "notifications_disabled_message": "You won't receive any notifications. You can change this anytime."
+  },
+  "wishlist": {
+    "title": "My Wishlist",
+    "empty": "Your wishlist is empty",
+    "empty_message": "Looks like you haven't added any products to your wishlist yet.",
+    "browse_products": "Browse Products",
+    "continue_shopping": "Continue Shopping",
+    "item_count": "You have {{count}} items in your wishlist",
+    "clear": "Clear Wishlist",
+    "remove": "Remove",
+    "clear_all": "Clear All",
+    "confirm_remove": "Remove from Wishlist",
+    "confirm_remove_message": "Are you sure you want to remove this item from your wishlist?",
+    "confirm_clear": "Clear Wishlist",
+    "confirm_clear_message": "Are you sure you want to clear your entire wishlist? This action cannot be undone.",
+    "login_required": "Login Required",
+    "login_message": "Please login to view and manage your wishlist",
+    "loading": "Loading your wishlist...",
+    "added_to_wishlist": "Added to wishlist",
+    "added_to_wishlist_message": "has been added to your wishlist",
+    "removed_from_wishlist": "Removed from wishlist",
+    "removed_from_wishlist_message": "has been removed from your wishlist",
+    "cleared": "Wishlist cleared",
+    "cleared_message": "All items have been removed from your wishlist",
+    "already_in_wishlist": "Already in wishlist",
+    "already_in_wishlist_message": "This product is already in your wishlist",
+    "remove_from_wishlist": "Remove from wishlist"
+  },
+  "common": {
+    "loading": "Loading...",
+    "saving": "Saving...",
+    "updating": "Updating...",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "save": "Save",
+    "product_not_found": "Product Not Found",
+    "product_not_found_message": "The product you're looking for could not be found.",
+    "browse_all": "Browse All Products",
+    "added_to_cart": "Added to cart",
+    "added_to_wishlist": "Added to wishlist",
+    "link_copied": "Link copied",
+    "link_copied_message": "Product link copied to clipboard"
+  },
+  "policies": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "last_updated": "Last updated",
+      "section1": {
+        "title": "1. Information We Collect",
+        "p1": "We collect personal information that you provide to us when you create an account, purchase products, sign up for our newsletter, or contact our customer service. This information may include:",
+        "list": {
+          "item1": "Name",
+          "item2": "Email address",
+          "item3": "Phone number",
+          "item4": "Shipping and billing addresses",
+          "item5": "Payment information",
+          "item6": "Purchase history"
+        },
+        "p2": "We also automatically collect certain information when you access our website, including your IP address, browser type, access time, and the pages you view."
+      },
+      "section2": {
+        "title": "2. How We Use Your Information",
+        "p1": "We use your personal information to:",
+        "list": {
+          "item1": "Process and deliver your orders",
+          "item2": "Communicate with you about orders, products, services, and promotions",
+          "item3": "Personalize your shopping experience",
+          "item4": "Improve our website, products, and services",
+          "item5": "Prevent fraud and secure our website"
+        }
+      },
+      "section3": {
+        "title": "3. Information Sharing",
+        "p1": "We do not sell, rent, or trade your personal information with third parties for marketing purposes. We may share your information with:",
+        "list": {
+          "item1": "Shipping partners to deliver your orders",
+          "item2": "Payment processors to handle your transactions",
+          "item3": "Service providers who help us operate our website and business",
+          "item4": "Law enforcement agencies when required by law"
+        }
+      },
+      "section4": {
+        "title": "4. Data Security",
+        "p1": "We implement reasonable security measures to protect your personal information from loss, unauthorized access, disclosure, alteration, or destruction. We use SSL encryption to protect sensitive information transmitted online and comply with industry security standards."
+      },
+      "section5": {
+        "title": "5. Cookies and Tracking Technologies",
+        "p1": "We use cookies and similar technologies to enhance your experience on our website, analyze how you use our site, and personalize content and advertisements. You can control the use of cookies through your browser settings."
+      },
+      "section6": {
+        "title": "6. Your Rights",
+        "p1": "Depending on your local laws, you may have the right to:",
+        "list": {
+          "item1": "Access your personal information",
+          "item2": "Correct inaccurate information",
+          "item3": "Delete your information",
+          "item4": "Restrict or object to the processing of your information",
+          "item5": "Receive your information in a portable format",
+          "item6": "Withdraw your consent"
+        },
+        "p2": "To exercise any of these rights, please contact us using the information below."
+      },
+      "section7": {
+        "title": "7. Policy Changes",
+        "p1": "We may update this privacy policy from time to time to reflect changes in our business practices or to comply with legal requirements. We will notify you of any significant changes by posting a notice on our website."
+      },
+      "section8": {
+        "title": "8. Contact Us",
+        "p1": "If you have any questions or concerns about our privacy policy or how we handle your personal information, please contact us at:",
+        "contact": {
+          "email": "Email",
+          "phone": "Phone",
+          "address": "Address"
+        }
+      }
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "last_updated": "Last updated",
+      "section1": {
+        "title": "1. Acceptance of Terms",
+        "p1": "By accessing or using our website, you agree to be bound by these Terms of Service. If you do not agree to any part of these terms, you may not access the website or use our services."
+      },
+      "section2": {
+        "title": "2. User Accounts",
+        "p1": "When you create an account with us, you must provide accurate, complete, and up-to-date information. You are responsible for safeguarding your account, including your password, and for all activities that occur under your account.",
+        "p2": "You must notify us immediately of any security breach or unauthorized use of your account. We are not liable for any loss arising from unauthorized use of your account."
+      },
+      "section3": {
+        "title": "3. Products and Pricing",
+        "p1": "We strive to provide accurate product and pricing information on our website. However, we do not warrant that product descriptions, images, pricing, or other content is accurate, complete, reliable, current, or error-free.",
+        "p2": "We reserve the right to refuse or cancel any order for any reason, including but not limited to errors in product description or pricing, limitations on quantities, or issues identified by our credit and fraud prevention team."
+      },
+      "section4": {
+        "title": "4. Orders and Payment",
+        "p1": "When you place an order, you agree to provide current, complete, and accurate purchase and account information. We reserve the right to refuse or cancel your order at any time for any reason.",
+        "p2": "We accept the payment methods listed on our website. You represent and warrant that you have the legal right to use any payment method in connection with your order."
+      },
+      "section5": {
+        "title": "5. Shipping",
+        "p1": "We will make our best effort to ship orders on time, but we do not guarantee delivery times. We are not responsible for any delays beyond our reasonable control.",
+        "p2": "Risk of loss and title for items purchased from us pass to you upon our delivery to the carrier."
+      },
+      "section6": {
+        "title": "6. Returns and Refunds",
+        "p1": "Please see our Refund Policy for information on how to return products and receive refunds."
+      },
+      "section7": {
+        "title": "7. Intellectual Property",
+        "p1": "The website and all of its content, features, and functionality, including but not limited to all information, software, text, images, graphics, and design, are the property of our company and are protected by intellectual property laws.",
+        "p2": "You may not copy, distribute, modify, publicly display, publicly perform, republish, download, store, or transmit any of the content on our website, except as expressly permitted in writing."
+      },
+      "section8": {
+        "title": "8. Prohibited Conduct",
+        "p1": "You may not use our website:",
+        "list": {
+          "item1": "In any way that violates any applicable law or regulation",
+          "item2": "To transmit or procure the sending of any advertising or promotional material",
+          "item3": "To impersonate or attempt to impersonate any person or entity",
+          "item4": "To engage in any conduct that restricts or inhibits anyone's use of the website",
+          "item5": "To attempt to gain unauthorized access to the website"
+        }
+      },
+      "section9": {
+        "title": "9. Disclaimer of Warranties",
+        "p1": "The website and its content are provided 'as is' and 'as available' without any warranties of any kind, either express or implied. We disclaim all warranties, including but not limited to implied warranties of merchantability, fitness for a particular purpose, and non-infringement.",
+        "p2": "We do not warrant that our website will be secure, uninterrupted, timely, error-free, or free from viruses or other harmful components."
+      },
+      "section10": {
+        "title": "10. Limitation of Liability",
+        "p1": "In no event will we, our affiliates, or our service providers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the website or any content thereon."
+      },
+      "section11": {
+        "title": "11. Indemnification",
+        "p1": "You agree to indemnify, defend, and hold harmless us and our affiliates, officers, directors, employees, contractors, agents, licensors, service providers, subcontractors, and suppliers from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees (including reasonable attorneys' fees) arising out of or relating to your violation of these Terms of Service."
+      },
+      "section12": {
+        "title": "12. Governing Law",
+        "p1": "These Terms of Service shall be governed by and construed in accordance with the laws of the United States, without regard to its conflict of law principles."
+      },
+      "section13": {
+        "title": "13. Contact Us",
+        "p1": "If you have any questions about these Terms of Service, please contact us at:",
+        "contact": {
+          "email": "Email",
+          "phone": "Phone",
+          "address": "Address"
+        }
+      }
+    },
+    "shipping": {
+      "title": "Shipping Policy",
+      "last_updated": "Last updated",
+      "section1": {
+        "title": "1. Shipping Coverage",
+        "p1": "We ship to all provinces and cities nationwide. For international orders, we currently ship to the following countries: Singapore, Malaysia, Thailand, Indonesia, Philippines, and Japan.",
+        "p2": "If your shipping address is not within our shipping coverage, please contact customer service for assistance."
+      },
+      "section2": {
+        "title": "2. Shipping Methods",
+        "p1": "We offer the following shipping methods:",
+        "list": {
+          "item1": {
+            "title": "Standard Shipping",
+            "desc": "Delivery within 3-5 business days (excluding weekends and holidays)"
+          },
+          "item2": {
+            "title": "Express Shipping",
+            "desc": "Delivery within 1-2 business days (excluding weekends and holidays)"
+          },
+          "item3": {
+            "title": "Same-day Delivery",
+            "desc": "Only available for orders placed before 10 AM and within city limits of major cities"
+          },
+          "item4": {
+            "title": "International Shipping",
+            "desc": "Delivery time ranges from 7-14 business days depending on the destination country"
+          }
+        }
+      },
+      "section3": {
+        "title": "3. Shipping Costs",
+        "p1": "Shipping costs are calculated based on the weight, dimensions of the product, shipping method, and delivery address. Exact shipping costs will be displayed during checkout before you complete your order.",
+        "p2": "We offer free standard domestic shipping for orders over $100.",
+        "table": {
+          "header1": "Shipping Method",
+          "header2": "Cost",
+          "header3": "Delivery Time",
+          "row1": {
+            "col1": "Standard Shipping",
+            "col2": "$5.99",
+            "col3": "3-5 business days"
+          },
+          "row2": {
+            "col1": "Express Shipping",
+            "col2": "$12.99",
+            "col3": "1-2 business days"
+          },
+          "row3": {
+            "col1": "Same-day Delivery",
+            "col2": "$19.99",
+            "col3": "Same day (before 6 PM)"
+          },
+          "row4": {
+            "col1": "International Shipping",
+            "col2": "From $29.99",
+            "col3": "7-14 business days"
+          }
+        }
+      },
+      "section4": {
+        "title": "4. Order Tracking",
+        "p1": "After your order has been shipped, you will receive a confirmation email with a tracking number and instructions on how to track your order. You can also track your order by logging into your account on our website and accessing the 'My Orders' section."
+      },
+      "section5": {
+        "title": "5. Failed Delivery",
+        "p1": "If we are unable to deliver to the address you provided (e.g., no one is available to receive the package, incorrect address), the carrier will leave a notice and attempt to contact you to reschedule delivery. After three unsuccessful delivery attempts, your order will be returned to our warehouse.",
+        "p2": "In the event that an order is returned due to failed delivery, you will be responsible for the original shipping cost and the return shipping cost. We will refund you after deducting these costs."
+      },
+      "section6": {
+        "title": "6. Inspection Upon Receipt",
+        "p1": "We encourage you to inspect your order immediately upon receipt to ensure that all items are present and in good condition. If you discover any issues with your order, please contact our customer service within 48 hours of receiving your order."
+      },
+      "section7": {
+        "title": "7. Shipping Delays",
+        "p1": "While we strive to deliver on time, occasionally delays may occur due to factors beyond our control such as bad weather, traffic issues, or other logistical problems. In the event of a significant delay, we will notify you via email or phone."
+      },
+      "section8": {
+        "title": "8. Contact Us",
+        "p1": "If you have any questions about our shipping policy, please contact our customer service:",
+        "contact": {
+          "email": "Email",
+          "phone": "Phone",
+          "hours": "Business Hours",
+          "hours_value": "Monday - Friday, 8:00 AM - 5:30 PM"
+        }
+      }
+    },
+    "refund": {
+      "title": "Refund Policy",
+      "last_updated": "Last updated",
+      "section1": {
+        "title": "1. Return Conditions",
+        "p1": "We accept returns of products within 30 days from the delivery date, under the following conditions:",
+        "list1": {
+          "item1": "The product must be in its original condition, unused, undamaged, and with all tags and labels intact",
+          "item2": "The product must be returned in its original packaging with all accessories, user manuals, and any gifts included (if applicable)",
+          "item3": "You must provide proof of purchase (invoice, order confirmation email, or order number)"
+        },
+        "p2": "Some products cannot be returned for hygiene or health protection reasons, including:",
+        "list2": {
+          "item1": "Underwear, socks, hosiery",
+          "item2": "Personal care products with broken seals",
+          "item3": "Food and beverages",
+          "item4": "Personalized products made to customer specifications"
+        }
+      },
+      "section2": {
+        "title": "2. Return Process",
+        "p1": "To return a product, please follow these steps:",
+        "list": {
+          "item1": {
+            "title": "Contact Us",
+            "desc": "Send a return request via email or call our customer service. Please provide your order number, product name, and reason for return."
+          },
+          "item2": {
+            "title": "Receive Return Code",
+            "desc": "Once your request is approved, we will send you a return code and packaging instructions."
+          },
+          "item3": {
+            "title": "Package the Product",
+            "desc": "Pack the product carefully in its original packaging or equivalent packaging. Attach the return code to the outside of the package."
+          },
+          "item4": {
+            "title": "Ship the Product",
+            "desc": "Ship the product to our warehouse address provided in the return instructions. You can choose to use our shipping service (fee will be deducted from the refund amount) or arrange shipping yourself."
+          }
+        },
+        "p2": "We recommend using a trackable and insured shipping service, as we are not responsible for products lost or damaged during return shipping."
+      },
+      "section3": {
+        "title": "3. Refunds",
+        "p1": "After receiving and inspecting the returned product, we will notify you about the status of your refund. If approved, the refund will be processed as follows:",
+        "list": {
+          "item1": {
+            "title": "Refund Method",
+            "desc": "Refunds will be issued to the original payment method you used to make the purchase. For cash on delivery (COD) payments, refunds will be processed via bank transfer."
+          },
+          "item2": {
+            "title": "Processing Time",
+            "desc": "Refunds are typically processed within 5-7 business days after we receive and inspect the returned product. Depending on your bank or payment method, it may take an additional 3-10 business days for the refund to appear in your account."
+          },
+          "item3": {
+            "title": "Return Shipping Costs",
+            "desc": "In case of returns due to customer error (e.g., change of mind, wrong size selection), return shipping costs will be borne by the customer and will be deducted from the refund amount."
+          }
+        },
+        "p2": "For returns due to defective, damaged, or incorrectly described products, we will refund the full amount including the original shipping fee and return shipping costs."
+      },
+      "section4": {
+        "title": "4. Exchanges",
+        "p1": "If you prefer to exchange the product instead of receiving a refund, please specify this in your initial return request. Exchanges are only available for the same product in a different size or color, subject to availability.",
+        "p2": "The exchange process is similar to the return process. After receiving the returned product, we will ship the replacement product to you. If there is a price difference, we will refund or charge the difference accordingly."
+      },
+      "section5": {
+        "title": "5. Defective or Damaged Products",
+        "p1": "If you receive a product that is defective, damaged, or not as described, please contact us within 48 hours of receiving the order. We will ask you to provide photos of the defective product for assessment.",
+        "p2": "For defective products, we will provide one of the following solutions, depending on the severity of the issue and product availability:",
+        "list": {
+          "item1": "Repair the product (if possible)",
+          "item2": "Replace with an identical or equivalent product",
+          "item3": "Full refund including shipping fees",
+          "item4": "Partial discount if the defect is minor and does not affect the product's functionality"
+        }
+      },
+      "section6": {
+        "title": "6. Warranty",
+        "p1": "Many of our products come with a manufacturer's warranty. The warranty terms and conditions will be specified in the product description or documentation accompanying the product. To claim warranty, please contact our customer service with proof of purchase and a description of the issue."
+      },
+      "section7": {
+        "title": "7. Contact Us",
+        "p1": "If you have any questions about our refund policy, please contact our customer service:",
+        "contact": {
+          "email": "Email",
+          "phone": "Phone",
+          "hours": "Business Hours",
+          "hours_value": "Monday - Friday, 8:00 AM - 5:30 PM"
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,573 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "products": "Sản phẩm",
+    "categories": "Danh mục",
+    "deals": "Khuyến mãi",
+    "wishlist": "Yêu thích",
+    "cart": "Giỏ hàng",
+    "account": "Tài khoản",
+    "orders": "Đơn hàng",
+    "login": "Đăng nhập / Đăng ký",
+    "logout": "Đăng xuất",
+    "admin_dashboard": "Quản trị viên",
+    "navigation": "Điều hướng",
+    "search": "Tìm kiếm"
+  },
+  "categories": {
+    "electronics": "Điện tử",
+    "clothing": "Quần áo",
+    "home_kitchen": "Nhà cửa & Nhà bếp",
+    "beauty": "Làm đẹp & Chăm sóc cá nhân"
+  },
+  "profile": {
+    "my_account": "Tài khoản của tôi",
+    "profile": "Hồ sơ",
+    "orders": "Đơn hàng",
+    "settings": "Cài đặt",
+    "admin": "Bảng quản trị",
+    "logout": "Đăng xuất",
+    "login_register": "Đăng nhập / Đăng ký"
+  },
+  "search": {
+    "button": "Tìm kiếm",
+    "placeholder": "Tìm kiếm sản phẩm...",
+    "title": "Tìm kiếm sản phẩm",
+    "popular": "Tìm kiếm phổ biến:",
+    "no_results": "Không tìm thấy kết quả",
+    "suggestions": "Gợi ý:",
+    "check_spelling": "Kiểm tra chính tả",
+    "more_general": "Thử từ khóa chung hơn",
+    "different_keywords": "Thử từ khóa khác",
+    "browse_categories": "Duyệt danh mục"
+  },
+  "product": {
+    "add_to_cart": "Thêm vào giỏ",
+    "buy_now": "Mua ngay",
+    "add_to_wishlist": "Thêm vào yêu thích",
+    "share": "Chia sẻ",
+    "description": "Mô tả",
+    "features": "Tính năng",
+    "specifications": "Thông số kỹ thuật",
+    "reviews": "Đánh giá",
+    "related": "Sản phẩm liên quan",
+    "availability": "Tình trạng:",
+    "in_stock": "Còn hàng",
+    "low_stock": "Sắp hết hàng (Còn",
+    "out_of_stock": "Hết hàng",
+    "sku": "Mã sản phẩm:",
+    "left": "sản phẩm)",
+    "best_seller": "Bán chạy",
+    "save": "Tiết kiệm"
+  },
+  "cart": {
+    "title": "Giỏ hàng của bạn",
+    "empty": "Giỏ hàng của bạn đang trống",
+    "empty_message": "Có vẻ như bạn chưa thêm gì vào giỏ hàng.",
+    "browse_products": "Duyệt sản phẩm",
+    "continue_shopping": "Tiếp tục mua sắm",
+    "summary": "Tổng quan đơn hàng",
+    "subtotal": "Tổng tiền",
+    "shipping": "Phí vận chuyển",
+    "tax": "Thuế",
+    "discount": "Giảm giá",
+    "total": "Tổng cộng",
+    "checkout": "Tiến hành thanh toán",
+    "clear": "Xóa giỏ hàng",
+    "apply": "Áp dụng",
+    "promo_code": "Mã giảm giá",
+    "try_codes": "Thử mã giảm giá: SAVE10, SAVE20",
+    "free_shipping": "Miễn phí vận chuyển cho đơn hàng trên $100",
+    "return_policy": "Chính sách đổi trả trong 30 ngày",
+    "login_required": "Đăng nhập là bắt buộc",
+    "login_message": "Vui lòng đăng nhập để xem và quản lý giỏ hàng của bạn",
+    "login_now": "Đăng nhập ngay",
+    "loading": "Đang tải giỏ hàng của bạn..."
+  },
+  "checkout": {
+    "title": "Thanh toán",
+    "information": "Thông tin",
+    "shipping": "Vận chuyển",
+    "payment": "Thanh toán",
+    "confirmation": "Xác nhận",
+    "contact_info": "Thông tin liên hệ",
+    "shipping_address": "Địa chỉ giao hàng",
+    "continue_shipping": "Tiếp tục đến vận chuyển",
+    "continue_payment": "Tiếp tục đến thanh toán",
+    "back_information": "Quay lại thông tin",
+    "back_shipping": "Quay lại vận chuyển",
+    "complete_order": "Hoàn tất đơn hàng",
+    "shipping_method": "Phương thức vận chuyển",
+    "email": "Email",
+    "phone": "Số điện thoại",
+    "first_name": "Tên",
+    "last_name": "Họ",
+    "address": "Địa chỉ",
+    "apartment": "Căn hộ, phòng, v.v. (tùy chọn)",
+    "city": "Thành phố",
+    "state": "Tỉnh/Thành phố",
+    "zip_code": "Mã bưu điện",
+    "country": "Quốc gia",
+    "save_info": "Lưu thông tin này cho lần sau",
+    "save_info_description": "Điều này sẽ lưu thông tin giao hàng của bạn cho các đơn hàng trong tương lai.",
+    "select_state": "Chọn tỉnh/thành phố",
+    "select_country": "Chọn quốc gia",
+    "estimated_delivery": "Thời gian giao hàng dự kiến",
+    "billing_address": "Địa chỉ thanh toán",
+    "same_as_shipping": "Giống với địa chỉ giao hàng",
+    "credit_card": "Thẻ tín dụng / Thẻ ghi nợ",
+    "card_number": "Số thẻ",
+    "expiry_date": "Ngày hết hạn",
+    "name_on_card": "Tên trên thẻ",
+    "paypal_description": "Bạn sẽ được chuyển hướng đến PayPal để hoàn tất thanh toán một cách an toàn.",
+    "bank_transfer": "Chuyển khoản ngân hàng",
+    "bank_transfer_description": "Thanh toán trực tiếp vào tài khoản ngân hàng của chúng tôi. Vui lòng sử dụng ID đơn hàng của bạn làm mã tham chiếu thanh toán.",
+    "fill_all_fields": "Vui lòng điền đầy đủ tất cả các trường bắt buộc",
+    "processing": "Đang xử lý thanh toán...",
+    "order_complete": "Đặt hàng thành công!",
+    "order_number": "Mã đơn hàng",
+    "confirmation_message": "Cảm ơn bạn đã mua hàng. Chúng tôi đã nhận được đơn đặt hàng của bạn và sẽ bắt đầu xử lý ngay lập tức. Bạn sẽ nhận được email xác nhận trong thời gian ngắn.",
+    "view_order": "Xem đơn hàng",
+    "continue_shopping": "Tiếp tục mua sắm",
+    "order_summary": "Tổng quan đơn hàng",
+    "confirmation_email": "Email xác nhận đã được gửi đến:",
+    "coupon_applied": "Đã áp dụng mã giảm giá",
+    "coupon_applied_description": "Giảm giá {{discount}} đã được áp dụng cho đơn hàng của bạn.",
+    "invalid_coupon": "Mã giảm giá không hợp lệ",
+    "invalid_coupon_description": "Mã giảm giá bạn nhập không hợp lệ hoặc đã hết hạn.",
+    "secure_checkout": "Thanh toán an toàn - dữ liệu của bạn được bảo vệ",
+    "order_success": "Đặt hàng thành công",
+    "order_success_message": "Đơn hàng #{{orderId}} của bạn đã được đặt thành công.",
+    "loading": "Đang tải trang thanh toán...",
+    "invalid_email": "Vui lòng nhập địa chỉ email hợp lệ",
+    "invalid_first_name": "Tên phải có ít nhất 2 ký tự",
+    "invalid_last_name": "Họ phải có ít nhất 2 ký tự",
+    "invalid_address": "Vui lòng nhập địa chỉ hợp lệ",
+    "invalid_city": "Vui lòng nhập thành phố hợp lệ",
+    "invalid_state": "Vui lòng chọn tỉnh/thành phố",
+    "invalid_zip": "Vui lòng nhập mã bưu điện hợp lệ",
+    "invalid_country": "Vui lòng chọn quốc gia",
+    "invalid_phone": "Vui lòng nhập số điện thoại hợp lệ"
+  },
+  "account": {
+    "title": "Tài khoản của tôi",
+    "personal_info": "Thông tin cá nhân",
+    "address": "Địa chỉ",
+    "password": "Mật khẩu",
+    "save_changes": "Lưu thay đổi",
+    "saving": "Đang lưu..."
+  },
+  "footer": {
+    "quick_links": "Liên kết nhanh",
+    "about_us": "Về chúng tôi",
+    "blog": "Blog",
+    "contact": "Liên hệ",
+    "faq": "Câu hỏi thường gặp",
+    "contact_us": "Liên hệ với chúng tôi",
+    "newsletter": "Bản tin",
+    "subscribe_text": "Đăng ký nhận bản tin của chúng tôi để cập nhật về sản phẩm mới và ưu đãi đặc biệt.",
+    "email_placeholder": "Địa chỉ email của bạn",
+    "subscribe": "Đăng ký",
+    "all_rights_reserved": "Tất cả các quyền được bảo lưu.",
+    "privacy_policy": "Chính sách bảo mật",
+    "terms_of_service": "Điều khoản dịch vụ",
+    "shipping_policy": "Chính sách vận chuyển",
+    "refund_policy": "Chính sách hoàn tiền",
+    "company_description": "ShopName là điểm đến duy nhất cho mọi nhu cầu mua sắm của bạn. Chúng tôi cung cấp nhiều sản phẩm chất lượng cao với giá cạnh tranh.",
+    "address": "123 Đường Shop, Thành phố, Quốc gia",
+    "phone": "+1 (234) 567-8900",
+    "email": "support@shopname.com",
+    "business_hours": "Giờ làm việc",
+    "monday_friday": "Thứ Hai - Thứ Sáu",
+    "saturday": "Thứ Bảy",
+    "sunday": "Chủ Nhật",
+    "customer_service": "Dịch vụ khách hàng"
+  },
+  "notifications": {
+    "notifications": "Thông báo",
+    "notification_preferences": "Tùy chọn thông báo",
+    "notification_description": "Chọn loại thông báo bạn muốn nhận về khuyến mãi, thông báo kho hàng và giảm giá.",
+    "promotions_and_deals": "Khuyến mãi & Ưu đãi",
+    "promotions_description": "Nhận thông báo về giảm giá, khuyến mãi và ưu đãi đặc biệt.",
+    "stock_alerts": "Thông báo kho hàng",
+    "stock_alerts_description": "Nhận thông báo khi sản phẩm trong danh sách yêu thích có hàng trở lại.",
+    "price_drops": "Giảm giá",
+    "price_drops_description": "Nhận thông báo khi sản phẩm bạn quan tâm giảm giá.",
+    "save_preferences": "Lưu tùy chọn",
+    "preferences_saved": "Đã lưu tùy chọn thông báo",
+    "preferences_saved_message": "Bạn sẽ nhận được thông báo dựa trên tùy chọn của bạn.",
+    "notifications_disabled": "Đã tắt thông báo",
+    "notifications_disabled_message": "Bạn sẽ không nhận được bất kỳ thông báo nào. Bạn có thể thay đổi điều này bất cứ lúc nào."
+  },
+  "wishlist": {
+    "title": "Danh sách yêu thích",
+    "empty": "Danh sách yêu thích của bạn đang trống",
+    "empty_message": "Có vẻ như bạn chưa thêm sản phẩm nào vào danh sách yêu thích.",
+    "browse_products": "Duyệt sản phẩm",
+    "continue_shopping": "Tiếp tục mua sắm",
+    "item_count": "Bạn có {{count}} sản phẩm trong danh sách yêu thích",
+    "clear": "Xóa danh sách",
+    "remove": "Xóa",
+    "clear_all": "Xóa tất cả",
+    "confirm_remove": "Xóa khỏi danh sách yêu thích",
+    "confirm_remove_message": "Bạn có chắc chắn muốn xóa sản phẩm này khỏi danh sách yêu thích không?",
+    "confirm_clear": "Xóa danh sách yêu thích",
+    "confirm_clear_message": "Bạn có chắc chắn muốn xóa toàn bộ danh sách yêu thích? Hành động này không thể hoàn tác.",
+    "login_required": "Đăng nhập là bắt buộc",
+    "login_message": "Vui lòng đăng nhập để xem và quản lý danh sách yêu thích của bạn",
+    "loading": "Đang tải danh sách yêu thích của bạn...",
+    "added_to_wishlist": "Đã thêm vào danh sách yêu thích",
+    "added_to_wishlist_message": "đã được thêm vào danh sách yêu thích của bạn",
+    "removed_from_wishlist": "Đã xóa khỏi danh sách yêu thích",
+    "removed_from_wishlist_message": "đã được xóa khỏi danh sách yêu thích của bạn",
+    "cleared": "Đã xóa danh sách yêu thích",
+    "cleared_message": "Tất cả sản phẩm đã được xóa khỏi danh sách yêu thích của bạn",
+    "already_in_wishlist": "Đã có trong danh sách yêu thích",
+    "already_in_wishlist_message": "Sản phẩm này đã có trong danh sách yêu thích của bạn",
+    "remove_from_wishlist": "Xóa khỏi danh sách yêu thích"
+  },
+  "common": {
+    "loading": "Đang tải...",
+    "saving": "Đang lưu...",
+    "updating": "Đang cập nhật...",
+    "cancel": "Hủy",
+    "submit": "Gửi",
+    "save": "Lưu",
+    "product_not_found": "Không tìm thấy sản phẩm",
+    "product_not_found_message": "Sản phẩm bạn đang tìm kiếm không thể được tìm thấy.",
+    "browse_all": "Xem tất cả sản phẩm",
+    "added_to_cart": "Đã thêm vào giỏ hàng",
+    "added_to_wishlist": "Đã thêm vào danh sách yêu thích",
+    "link_copied": "Đã sao chép liên kết",
+    "link_copied_message": "Liên kết sản phẩm đã được sao chép vào bộ nhớ tạm"
+  },
+  "policies": {
+    "privacy": {
+      "title": "Chính sách bảo mật",
+      "last_updated": "Cập nhật lần cuối",
+      "section1": {
+        "title": "1. Thông tin chúng tôi thu thập",
+        "p1": "Chúng tôi thu thập thông tin cá nhân mà bạn cung cấp cho chúng tôi khi bạn tạo tài khoản, mua sản phẩm, đăng ký nhận bản tin, hoặc liên hệ với dịch vụ khách hàng của chúng tôi. Thông tin này có thể bao gồm:",
+        "list": {
+          "item1": "Họ tên",
+          "item2": "Địa chỉ email",
+          "item3": "Số điện thoại",
+          "item4": "Địa chỉ giao hàng và thanh toán",
+          "item5": "Thông tin thanh toán",
+          "item6": "Lịch sử mua hàng"
+        },
+        "p2": "Chúng tôi cũng tự động thu thập một số thông tin khi bạn truy cập trang web của chúng tôi, bao gồm địa chỉ IP, loại trình duyệt, thời gian truy cập, và các trang bạn xem."
+      },
+      "section2": {
+        "title": "2. Cách chúng tôi sử dụng thông tin của bạn",
+        "p1": "Chúng tôi sử dụng thông tin cá nhân của bạn để:",
+        "list": {
+          "item1": "Xử lý và giao các đơn hàng của bạn",
+          "item2": "Liên lạc với bạn về đơn hàng, sản phẩm, dịch vụ và khuyến mãi",
+          "item3": "Cá nhân hóa trải nghiệm mua sắm của bạn",
+          "item4": "Cải thiện trang web, sản phẩm và dịch vụ của chúng tôi",
+          "item5": "Ngăn chặn gian lận và bảo vệ an ninh của trang web"
+        }
+      },
+      "section3": {
+        "title": "3. Chia sẻ thông tin",
+        "p1": "Chúng tôi không bán, cho thuê hoặc trao đổi thông tin cá nhân của bạn với bên thứ ba vì mục đích tiếp thị. Chúng tôi có thể chia sẻ thông tin của bạn với:",
+        "list": {
+          "item1": "Đối tác vận chuyển để giao hàng đến bạn",
+          "item2": "Đối tác thanh toán để xử lý giao dịch của bạn",
+          "item3": "Nhà cung cấp dịch vụ giúp chúng tôi vận hành trang web và doanh nghiệp",
+          "item4": "Cơ quan thực thi pháp luật khi được yêu cầu theo quy định pháp luật"
+        }
+      },
+      "section4": {
+        "title": "4. Bảo mật dữ liệu",
+        "p1": "Chúng tôi thực hiện các biện pháp bảo mật hợp lý để bảo vệ thông tin cá nhân của bạn khỏi mất mát, truy cập trái phép, tiết lộ, thay đổi hoặc phá hủy. Chúng tôi sử dụng mã hóa SSL để bảo vệ thông tin nhạy cảm được truyền trực tuyến và tuân thủ các tiêu chuẩn bảo mật ngành."
+      },
+      "section5": {
+        "title": "5. Cookie và công nghệ theo dõi",
+        "p1": "Chúng tôi sử dụng cookie và các công nghệ tương tự để cải thiện trải nghiệm của bạn trên trang web của chúng tôi, phân tích cách bạn sử dụng trang web, và cá nhân hóa nội dung và quảng cáo. Bạn có thể kiểm soát việc sử dụng cookie thông qua cài đặt trình duyệt của mình."
+      },
+      "section6": {
+        "title": "6. Quyền của bạn",
+        "p1": "Tùy thuộc vào luật pháp địa phương của bạn, bạn có thể có quyền:",
+        "list": {
+          "item1": "Truy cập thông tin cá nhân của bạn",
+          "item2": "Sửa thông tin không chính xác",
+          "item3": "Xóa thông tin của bạn",
+          "item4": "Hạn chế hoặc phản đối việc xử lý thông tin của bạn",
+          "item5": "Nhận thông tin của bạn ở định dạng có thể chuyển giao",
+          "item6": "Rút lại sự đồng ý của bạn"
+        },
+        "p2": "Để thực hiện bất kỳ quyền nào trong số này, vui lòng liên hệ với chúng tôi theo thông tin liên hệ bên dưới."
+      },
+      "section7": {
+        "title": "7. Thay đổi chính sách",
+        "p1": "Chúng tôi có thể cập nhật chính sách bảo mật này theo thời gian để phản ánh các thay đổi trong hoạt động kinh doanh của chúng tôi hoặc để tuân thủ các yêu cầu pháp lý. Chúng tôi sẽ thông báo cho bạn về bất kỳ thay đổi quan trọng nào bằng cách đăng thông báo trên trang web của chúng tôi."
+      },
+      "section8": {
+        "title": "8. Liên hệ với chúng tôi",
+        "p1": "Nếu bạn có bất kỳ câu hỏi hoặc quan ngại nào về chính sách bảo mật của chúng tôi hoặc cách chúng tôi xử lý thông tin cá nhân của bạn, vui lòng liên hệ với chúng tôi tại:",
+        "contact": {
+          "email": "Email",
+          "phone": "Điện thoại",
+          "address": "Địa chỉ"
+        }
+      }
+    },
+    "terms": {
+      "title": "Điều khoản dịch vụ",
+      "last_updated": "Cập nhật lần cuối",
+      "section1": {
+        "title": "1. Chấp nhận điều khoản",
+        "p1": "Bằng cách truy cập hoặc sử dụng trang web của chúng tôi, bạn đồng ý bị ràng buộc bởi các Điều khoản dịch vụ này. Nếu bạn không đồng ý với bất kỳ phần nào của các điều khoản này, bạn không được phép truy cập trang web hoặc sử dụng dịch vụ của chúng tôi."
+      },
+      "section2": {
+        "title": "2. Tài khoản người dùng",
+        "p1": "Khi bạn tạo tài khoản với chúng tôi, bạn phải cung cấp thông tin chính xác, đầy đủ và cập nhật. Bạn chịu trách nhiệm bảo mật tài khoản của mình, bao gồm mật khẩu, và cho tất cả các hoạt động xảy ra dưới tài khoản của bạn.",
+        "p2": "Bạn phải thông báo cho chúng tôi ngay lập tức về bất kỳ vi phạm bảo mật hoặc sử dụng trái phép tài khoản của bạn. Chúng tôi không chịu trách nhiệm cho bất kỳ tổn thất nào phát sinh từ việc sử dụng trái phép tài khoản của bạn."
+      },
+      "section3": {
+        "title": "3. Sản phẩm và giá cả",
+        "p1": "Chúng tôi nỗ lực để cung cấp thông tin chính xác về sản phẩm và giá cả trên trang web của chúng tôi. Tuy nhiên, chúng tôi không đảm bảo rằng thông tin sản phẩm, mô tả, hình ảnh, giá cả hoặc thông tin khác là chính xác, đầy đủ, đáng tin cậy, cập nhật hoặc không có lỗi.",
+        "p2": "Chúng tôi có quyền từ chối hoặc hủy bất kỳ đơn hàng nào vì bất kỳ lý do gì, bao gồm nhưng không giới hạn ở lỗi trong mô tả sản phẩm hoặc giá cả, hạn chế về số lượng, hoặc vấn đề được xác định bởi nhóm bảo mật tín dụng và gian lận của chúng tôi."
+      },
+      "section4": {
+        "title": "4. Đặt hàng và thanh toán",
+        "p1": "Khi bạn đặt hàng, bạn đồng ý cung cấp thông tin mua hàng và thanh toán hiện tại, đầy đủ và chính xác. Chúng tôi có quyền từ chối hoặc hủy đơn hàng của bạn vào bất kỳ lúc nào vì bất kỳ lý do gì.",
+        "p2": "Chúng tôi chấp nhận các phương thức thanh toán được liệt kê trên trang web của chúng tôi. Bạn đại diện và bảo đảm rằng bạn có quyền hợp pháp để sử dụng bất kỳ phương thức thanh toán nào liên quan đến đơn hàng của bạn."
+      },
+      "section5": {
+        "title": "5. Giao hàng",
+        "p1": "Chúng tôi sẽ nỗ lực để giao hàng đúng thời hạn, nhưng chúng tôi không đảm bảo thời gian giao hàng. Chúng tôi không chịu trách nhiệm về bất kỳ sự chậm trễ nào ngoài tầm kiểm soát hợp lý của chúng tôi.",
+        "p2": "Rủi ro mất mát và quyền sở hữu đối với các mặt hàng bạn mua từ chúng tôi được chuyển cho bạn khi chúng tôi giao các mặt hàng cho đơn vị vận chuyển."
+      },
+      "section6": {
+        "title": "6. Hoàn trả và hoàn tiền",
+        "p1": "Vui lòng xem Chính sách hoàn trả và hoàn tiền của chúng tôi để biết thông tin về cách hoàn trả sản phẩm và nhận hoàn tiền."
+      },
+      "section7": {
+        "title": "7. Quyền sở hữu trí tuệ",
+        "p1": "Trang web và tất cả nội dung, tính năng và chức năng của nó, bao gồm nhưng không giới hạn ở tất cả thông tin, phần mềm, văn bản, hình ảnh, âm thanh, video, và thiết kế, là tài sản của công ty chúng tôi và được bảo vệ bởi luật sở hữu trí tuệ.",
+        "p2": "Bạn không được sao chép, phân phối, sửa đổi, hiển thị công khai, thực hiện công khai, tái xuất bản, tải xuống, lưu trữ hoặc truyền bất kỳ nội dung nào trên trang web của chúng tôi, trừ khi được cho phép rõ ràng bằng văn bản."
+      },
+      "section8": {
+        "title": "8. Hành vi bị cấm",
+        "p1": "Bạn không được sử dụng trang web của chúng tôi:",
+        "list": {
+          "item1": "Theo bất kỳ cách nào vi phạm bất kỳ luật hoặc quy định hiện hành nào",
+          "item2": "Để gửi, nhận, tải lên, tải xuống, sử dụng hoặc tái sử dụng bất kỳ tài liệu nào không tuân thủ tiêu chuẩn nội dung của chúng tôi",
+          "item3": "Để truyền hoặc mua lại việc gửi bất kỳ tài liệu quảng cáo hoặc khuyến mãi nào",
+          "item4": "Để giả mạo hoặc cố gắng giả mạo bất kỳ cá nhân hoặc tổ chức nào",
+          "item5": "Để can thiệp vào hoạt động bình thường của trang web"
+        }
+      },
+      "section9": {
+        "title": "9. Miễn trừ trách nhiệm",
+        "p1": "Trang web và nội dung của nó được cung cấp 'nguyên trạng' và 'như có sẵn' mà không có bất kỳ bảo đảm nào, dù rõ ràng hay ngụ ý. Chúng tôi từ chối tất cả bảo đảm, bao gồm nhưng không giới hạn ở bảo đảm ngụ ý về khả năng bán được, sự phù hợp cho một mục đích cụ thể, và không vi phạm.",
+        "p2": "Chúng tôi không đảm bảo rằng trang web của chúng tôi sẽ an toàn, không bị gián đoạn, kịp thời, không có lỗi, hoặc không có virus hoặc các thành phần có hại khác."
+      },
+      "section10": {
+        "title": "10. Giới hạn trách nhiệm",
+        "p1": "Trong mọi trường hợp, chúng tôi, các chi nhánh của chúng tôi, hoặc nhà cung cấp dịch vụ của chúng tôi sẽ không chịu trách nhiệm cho bất kỳ thiệt hại nào (bao gồm, nhưng không giới hạn ở, thiệt hại do mất dữ liệu hoặc lợi nhuận, hoặc do gián đoạn kinh doanh) phát sinh từ việc sử dụng hoặc không thể sử dụng trang web hoặc bất kỳ nội dung nào trên đó."
+      },
+      "section11": {
+        "title": "11. Bồi thường",
+        "p1": "Bạn đồng ý bồi thường, bảo vệ và giữ cho chúng tôi và các chi nhánh, cán bộ, giám đốc, nhân viên, nhà thầu, đại lý, người cấp phép, nhà cung cấp dịch vụ, nhà thầu phụ và nhà cung cấp của chúng tôi không bị tổn hại từ và chống lại bất kỳ khiếu nại, trách nhiệm, thiệt hại, phán quyết, giải thưởng, tổn thất, chi phí, chi phí hoặc phí (bao gồm phí luật sư hợp lý) phát sinh từ hoặc liên quan đến việc vi phạm các Điều khoản dịch vụ này của bạn."
+      },
+      "section12": {
+        "title": "12. Luật áp dụng",
+        "p1": "Các Điều khoản dịch vụ này sẽ được điều chỉnh và giải thích theo luật pháp Việt Nam, không tính đến các nguyên tắc xung đột pháp luật."
+      },
+      "section13": {
+        "title": "13. Liên hệ với chúng tôi",
+        "p1": "Nếu bạn có bất kỳ câu hỏi nào về Điều khoản dịch vụ này, vui lòng liên hệ với chúng tôi tại:",
+        "contact": {
+          "email": "Email",
+          "phone": "Điện thoại",
+          "address": "Địa chỉ"
+        }
+      }
+    },
+    "shipping": {
+      "title": "Chính sách vận chuyển",
+      "last_updated": "Cập nhật lần cuối",
+      "section1": {
+        "title": "1. Phạm vi giao hàng",
+        "p1": "Chúng tôi giao hàng đến tất cả các tỉnh thành trên toàn quốc. Đối với đơn hàng quốc tế, chúng tôi hiện đang giao hàng đến các quốc gia sau: Singapore, Malaysia, Thái Lan, Indonesia, Philippines, và Nhật Bản.",
+        "p2": "Nếu địa chỉ giao hàng của bạn không nằm trong phạm vi giao hàng của chúng tôi, vui lòng liên hệ với dịch vụ khách hàng để được hỗ trợ."
+      },
+      "section2": {
+        "title": "2. Phương thức vận chuyển",
+        "p1": "Chúng tôi cung cấp các phương thức vận chuyển sau:",
+        "list": {
+          "item1": {
+            "title": "Giao hàng tiêu chuẩn",
+            "desc": "Giao hàng trong 3-5 ngày làm việc (không bao gồm thứ Bảy, Chủ nhật và ngày lễ)"
+          },
+          "item2": {
+            "title": "Giao hàng nhanh",
+            "desc": "Giao hàng trong 1-2 ngày làm việc (không bao gồm thứ Bảy, Chủ nhật và ngày lễ)"
+          },
+          "item3": {
+            "title": "Giao hàng trong ngày",
+            "desc": "Chỉ áp dụng cho các đơn hàng được đặt trước 10 giờ sáng và trong phạm vi nội thành Hà Nội và TP. Hồ Chí Minh"
+          },
+          "item4": {
+            "title": "Giao hàng quốc tế",
+            "desc": "Thời gian giao hàng từ 7-14 ngày làm việc tùy thuộc vào quốc gia đích"
+          }
+        }
+      },
+      "section3": {
+        "title": "3. Chi phí vận chuyển",
+        "p1": "Chi phí vận chuyển được tính dựa trên trọng lượng, kích thước của sản phẩm, phương thức vận chuyển và địa chỉ giao hàng. Chi phí vận chuyển chính xác sẽ được hiển thị trong quá trình thanh toán trước khi bạn hoàn tất đơn hàng.",
+        "p2": "Chúng tôi cung cấp giao hàng miễn phí cho các đơn hàng có giá trị từ 500.000 VNĐ trở lên đối với giao hàng tiêu chuẩn trong nước.",
+        "table": {
+          "header1": "Phương thức vận chuyển",
+          "header2": "Chi phí",
+          "header3": "Thời gian giao hàng",
+          "row1": {
+            "col1": "Giao hàng tiêu chuẩn",
+            "col2": "30.000 VNĐ",
+            "col3": "3-5 ngày làm việc"
+          },
+          "row2": {
+            "col1": "Giao hàng nhanh",
+            "col2": "60.000 VNĐ",
+            "col3": "1-2 ngày làm việc"
+          },
+          "row3": {
+            "col1": "Giao hàng trong ngày",
+            "col2": "100.000 VNĐ",
+            "col3": "Trong ngày (trước 18:00)"
+          },
+          "row4": {
+            "col1": "Giao hàng quốc tế",
+            "col2": "Từ 250.000 VNĐ",
+            "col3": "7-14 ngày làm việc"
+          }
+        }
+      },
+      "section4": {
+        "title": "4. Theo dõi đơn hàng",
+        "p1": "Sau khi đơn hàng của bạn được gửi đi, bạn sẽ nhận được email xác nhận với mã số theo dõi và hướng dẫn cách theo dõi đơn hàng của bạn. Bạn cũng có thể theo dõi đơn hàng của mình bằng cách đăng nhập vào tài khoản của bạn trên trang web của chúng tôi và truy cập phần 'Đơn hàng của tôi'."
+      },
+      "section5": {
+        "title": "5. Giao hàng không thành công",
+        "p1": "Nếu chúng tôi không thể giao hàng đến địa chỉ bạn cung cấp (ví dụ: không có ai nhận hàng, địa chỉ không chính xác), đơn vị vận chuyển sẽ để lại thông báo và cố gắng liên hệ với bạn để sắp xếp lại việc giao hàng. Sau ba lần giao hàng không thành công, đơn hàng của bạn sẽ được trả về kho của chúng tôi.",
+        "p2": "Trong trường hợp đơn hàng bị trả lại do không thể giao hàng, bạn sẽ chịu trách nhiệm cho chi phí vận chuyển ban đầu và chi phí trả hàng. Chúng tôi sẽ hoàn lại tiền cho bạn sau khi trừ đi các chi phí này."
+      },
+      "section6": {
+        "title": "6. Kiểm tra hàng khi nhận",
+        "p1": "Chúng tôi khuyến khích bạn kiểm tra đơn hàng ngay khi nhận được để đảm bảo rằng tất cả các mặt hàng đều có mặt và trong tình trạng tốt. Nếu bạn phát hiện bất kỳ vấn đề nào với đơn hàng của mình, vui lòng liên hệ với dịch vụ khách hàng của chúng tôi trong vòng 48 giờ kể từ khi nhận hàng."
+      },
+      "section7": {
+        "title": "7. Giao hàng chậm trễ",
+        "p1": "Mặc dù chúng tôi nỗ lực để giao hàng đúng thời hạn, đôi khi có thể xảy ra sự chậm trễ do các yếu tố ngoài tầm kiểm soát của chúng tôi như thời tiết xấu, sự cố giao thông, hoặc các vấn đề hậu cần khác. Trong trường hợp có sự chậm trễ đáng kể, chúng tôi sẽ thông báo cho bạn qua email hoặc điện thoại."
+      },
+      "section8": {
+        "title": "8. Liên hệ với chúng tôi",
+        "p1": "Nếu bạn có bất kỳ câu hỏi nào về chính sách vận chuyển của chúng tôi, vui lòng liên hệ với dịch vụ khách hàng của chúng tôi:",
+        "contact": {
+          "email": "Email",
+          "phone": "Điện thoại",
+          "hours": "Giờ làm việc",
+          "hours_value": "Thứ Hai - Thứ Sáu, 8:00 - 17:30"
+        }
+      }
+    },
+    "refund": {
+      "title": "Chính sách hoàn tiền",
+      "last_updated": "Cập nhật lần cuối",
+      "section1": {
+        "title": "1. Điều kiện hoàn trả",
+        "p1": "Chúng tôi chấp nhận hoàn trả các sản phẩm trong vòng 30 ngày kể từ ngày giao hàng, với các điều kiện sau:",
+        "list1": {
+          "item1": "Sản phẩm phải còn nguyên trạng, chưa qua sử dụng, chưa bị hư hỏng và còn nguyên tem, nhãn",
+          "item2": "Sản phẩm phải được trả lại trong bao bì gốc với tất cả các phụ kiện, hướng dẫn sử dụng và quà tặng kèm theo (nếu có)",
+          "item3": "Bạn phải cung cấp bằng chứng mua hàng (hóa đơn, email xác nhận đơn hàng hoặc số đơn hàng)"
+        },
+        "p2": "Một số sản phẩm không được hoàn trả vì lý do vệ sinh hoặc bảo vệ sức khỏe, bao gồm:",
+        "list2": {
+          "item1": "Đồ lót, tất, vớ",
+          "item2": "Sản phẩm chăm sóc cá nhân đã mở seal",
+          "item3": "Thực phẩm, đồ uống",
+          "item4": "Sản phẩm được cá nhân hóa theo yêu cầu của khách hàng"
+        }
+      },
+      "section2": {
+        "title": "2. Quy trình hoàn trả",
+        "p1": "Để hoàn trả sản phẩm, vui lòng làm theo các bước sau:",
+        "list": {
+          "item1": {
+            "title": "Liên hệ với chúng tôi",
+            "desc": "Gửi yêu cầu hoàn trả qua email hoặc gọi điện cho dịch vụ khách hàng của chúng tôi. Vui lòng cung cấp số đơn hàng, tên sản phẩm và lý do hoàn trả."
+          },
+          "item2": {
+            "title": "Nhận mã hoàn trả",
+            "desc": "Sau khi yêu cầu của bạn được chấp nhận, chúng tôi sẽ gửi cho bạn mã hoàn trả và hướng dẫn đóng gói."
+          },
+          "item3": {
+            "title": "Đóng gói sản phẩm",
+            "desc": "Đóng gói sản phẩm cẩn thận trong bao bì gốc hoặc bao bì tương đương. Đính kèm mã hoàn trả bên ngoài gói hàng."
+          },
+          "item4": {
+            "title": "Gửi sản phẩm",
+            "desc": "Gửi sản phẩm đến địa chỉ kho hàng của chúng tôi được cung cấp trong hướng dẫn hoàn trả. Bạn có thể chọn sử dụng dịch vụ vận chuyển của chúng tôi (phí sẽ được khấu trừ từ số tiền hoàn lại) hoặc tự sắp xếp việc vận chuyển."
+          }
+        },
+        "p2": "Chúng tôi khuyên bạn nên sử dụng dịch vụ vận chuyển có thể theo dõi và bảo hiểm, vì chúng tôi không chịu trách nhiệm cho các sản phẩm bị mất hoặc hư hỏng trong quá trình vận chuyển trả lại."
+      },
+      "section3": {
+        "title": "3. Hoàn tiền",
+        "p1": "Sau khi nhận được và kiểm tra sản phẩm hoàn trả, chúng tôi sẽ thông báo cho bạn về tình trạng hoàn tiền. Nếu được chấp nhận, hoàn tiền sẽ được xử lý như sau:",
+        "list": {
+          "item1": {
+            "title": "Phương thức hoàn tiền",
+            "desc": "Hoàn tiền sẽ được thực hiện qua phương thức thanh toán ban đầu bạn đã sử dụng để mua hàng. Đối với thanh toán khi nhận hàng (COD), hoàn tiền sẽ được chuyển khoản ngân hàng."
+          },
+          "item2": {
+            "title": "Thời gian xử lý",
+            "desc": "Hoàn tiền thường được xử lý trong vòng 5-7 ngày làm việc sau khi chúng tôi nhận được và kiểm tra sản phẩm hoàn trả. Tùy thuộc vào ngân hàng hoặc phương thức thanh toán của bạn, có thể mất thêm 3-10 ngày làm việc để số tiền hoàn lại xuất hiện trong tài khoản của bạn."
+          },
+          "item3": {
+            "title": "Chi phí hoàn trả",
+            "desc": "Trong trường hợp hoàn trả do lỗi của khách hàng (ví dụ: đổi ý, chọn sai kích cỡ), chi phí vận chuyển hoàn trả sẽ do khách hàng chịu và sẽ được khấu trừ từ số tiền hoàn lại."
+          }
+        },
+        "p2": "Đối với hoàn trả do sản phẩm lỗi, hư hỏng hoặc không đúng mô tả, chúng tôi sẽ hoàn lại toàn bộ số tiền bao gồm phí vận chuyển ban đầu và chi phí vận chuyển hoàn trả."
+      },
+      "section4": {
+        "title": "4. Đổi sản phẩm",
+        "p1": "Nếu bạn muốn đổi sản phẩm thay vì hoàn tiền, vui lòng nêu rõ trong yêu cầu hoàn trả ban đầu. Đổi sản phẩm chỉ áp dụng cho cùng một sản phẩm với kích cỡ hoặc màu sắc khác, tùy thuộc vào tình trạng còn hàng.",
+        "p2": "Quy trình đổi sản phẩm tương tự như quy trình hoàn trả. Sau khi nhận được sản phẩm trả lại, chúng tôi sẽ gửi sản phẩm thay thế cho bạn. Nếu có sự chênh lệch về giá, chúng tôi sẽ hoàn lại hoặc thu thêm số tiền chênh lệch tương ứng."
+      },
+      "section5": {
+        "title": "5. Sản phẩm lỗi hoặc hư hỏng",
+        "p1": "Nếu bạn nhận được sản phẩm bị lỗi, hư hỏng hoặc không đúng với mô tả, vui lòng liên hệ với chúng tôi trong vòng 48 giờ kể từ khi nhận hàng. Chúng tôi sẽ yêu cầu bạn cung cấp hình ảnh của sản phẩm lỗi để đánh giá.",
+        "p2": "Đối với sản phẩm lỗi, chúng tôi sẽ cung cấp một trong các giải pháp sau, tùy thuộc vào mức độ nghiêm trọng của vấn đề và sự sẵn có của sản phẩm:",
+        "list": {
+          "item1": "Sửa chữa sản phẩm (nếu có thể)",
+          "item2": "Thay thế bằng sản phẩm giống hệt hoặc tương đương",
+          "item3": "Hoàn tiền đầy đủ bao gồm phí vận chuyển",
+          "item4": "Giảm giá một phần nếu lỗi nhỏ và không ảnh hưởng đến chức năng của sản phẩm"
+        }
+      },
+      "section6": {
+        "title": "6. Bảo hành",
+        "p1": "Nhiều sản phẩm của chúng tôi đi kèm với bảo hành của nhà sản xuất. Thời hạn và điều kiện bảo hành sẽ được nêu rõ trong mô tả sản phẩm hoặc tài liệu đi kèm với sản phẩm. Để yêu cầu bảo hành, vui lòng liên hệ với dịch vụ khách hàng của chúng tôi với bằng chứng mua hàng và mô tả vấn đề."
+      },
+      "section7": {
+        "title": "7. Liên hệ với chúng tôi",
+        "p1": "Nếu bạn có bất kỳ câu hỏi nào về chính sách hoàn tiền của chúng tôi, vui lòng liên hệ với dịch vụ khách hàng:",
+        "contact": {
+          "email": "Email",
+          "phone": "Điện thoại",
+          "hours": "Giờ làm việc",
+          "hours_value": "Thứ Hai - Thứ Sáu, 8:00 - 17:30"
+        }
+      }
+    }
+  }
+}
+
